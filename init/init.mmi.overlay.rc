@@ -1,11 +1,4 @@
 on post-fs
-    # "Tap to wake" gesture
-    chown root input /sys/class/sensors/dt-gesture/enable
-    chmod 0660 /sys/class/sensors/dt-gesture/enable
-    chown root input /sys/class/sensors/dt-gesture/poll_delay
-    chmod 0660 /sys/class/sensors/dt-gesture/poll_delay
-
-on post-fs
     chown system system /sys/devices/platform/soc/4804000.ufshc/clkgate_enable
     chown system system /sys/devices/platform/soc/4804000.ufshc/devfreq/4804000.ufshc/min_freq
 
@@ -56,8 +49,6 @@ on post-fs-data
     chown radio /data/vendor/radio/bluetooth_sar
 
 on early-init
-    insmod /vendor/lib/modules/leds_aw99703.ko
-    insmod /vendor/lib/modules/leds_lm3697.ko
     insmod /vendor/lib/modules/mcDrvModule.ko
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -r -d /vendor/lib/modules/${ro.vendor.mot.gki.path} zram
 
