@@ -21,6 +21,6 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g 5G - 2024
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="fogo_g-user 14 U1UFNS34.41-98-3-13 fdb830-c3356 release-keys MUR1-0.252" \
-    BuildFingerprint=motorola/fogo_g/fogo:14/U1UFNS34.41-98-3-13/fdb830-c3356:user/release-keys \
+    BuildDesc="fogo_g-user 14 U1UFNS34.41-98-3-16 31deb6-790f4 release-keys MUR1-0.252" \
+    BuildFingerprint=motorola/fogo_g/fogo:14/U1UFNS34.41-98-3-16/31deb6-790f4:user/release-keys \
     DeviceProduct=fogo_g
