@@ -16,6 +16,23 @@
       "message": "Stock has a new update, we might need to bump this again, checking it now",
       "revId": "71c01e62d4f012bb0568504ea19a3c72f6f78aa9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd5e6896_07ae2369",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-08-20T17:38:16Z",
+      "side": 1,
+      "message": "It\u0027s the same",
+      "revId": "71c01e62d4f012bb0568504ea19a3c72f6f78aa9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
