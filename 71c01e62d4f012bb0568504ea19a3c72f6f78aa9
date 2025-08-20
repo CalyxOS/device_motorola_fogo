@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc3ded8b_f4b00143",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-08-20T17:07:17Z",
+      "side": 1,
+      "message": "Stock has a new update, we might need to bump this again, checking it now",
+      "revId": "71c01e62d4f012bb0568504ea19a3c72f6f78aa9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
