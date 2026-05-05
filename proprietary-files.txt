@@ -237,12 +237,6 @@ vendor/usr/idc/uinput_nav.idc
 vendor/usr/keylayout/uinput-fpc.kl
 vendor/usr/keylayout/uinput_nav.kl
 
-# HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
-
 # NFC - configs
 vendor/etc/libnfc-SN220-UICC.conf
 vendor/etc/libnfc-nci_SN220.conf
